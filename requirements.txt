@@ -1,0 +1,4 @@
+Flask
+flask-lambda
+smtplib
+email
