@@ -1,8 +1,0 @@
-[build]
-publish = "public"  # Or wherever your index.html is located
-functions = "functions"  # Where your Netlify functions (handle.py) are located
-
-[[redirects]]
-from = "/upload"
-to = "/.netlify/functions/handle"
-status = 200
